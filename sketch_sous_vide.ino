@@ -28,13 +28,8 @@
 
 /* 
  *  
- * Analogue input pin connected to the output of an
- * LM34/LM35/LM36/TMP34/TMP36/TMP37 temperature sensor.
- * Default calibration values assume an LM35, but setup should
- * be run to calibrate the sensor whichever is used. Any analogue
- * temperature sensor that will run off Vcc of 5 volts, and output
- * a voltage within the 0-Vcc range that is linearly proportional
- * to the temperature change will work.
+ * Analogue input pin used a digital pin, connected to a DS18B20 
+ * temperature sensor.
  * 
  */
  
