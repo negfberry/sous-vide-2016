@@ -2292,6 +2292,13 @@ void check_mem() {
   stackptr =  (uint8_t *)(SP);      // save value of stack pointer
 }
 
+/*
+ *
+ * From here on is an Easter egg, where you get to play a Star Wars game, flying
+ * the Millenium Falcon against TIE fighters.
+ *
+ */
+ 
 #define ENEMY_FIRE 55
 #define HORIZONTAL 0
 #define VERTICAL 1
